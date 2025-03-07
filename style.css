@@ -1,0 +1,228 @@
+nav {
+    background-color: #333;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+ 
+nav li {
+    display: inline-block;
+}
+ 
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+ 
+nav a.active {
+    color: greenyellow;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+ 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+ 
+form div {
+    margin-bottom: 15px;
+}
+ 
+form input {
+    display: block;
+    width: 350px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container1 {
+    display: flex;  
+        justify-content: space-between;  
+        align-items: flex-start; 
+        gap: 40px; 
+        padding: 20px;
+}
+
+.container1 h2 {
+    color: #333;
+    z-index: 1;
+}
+
+.container1 form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.container1 form div {
+    margin-bottom: 15px;
+}
+
+.container1 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container1 button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container1 button:hover {
+    background-color: #218838;
+}
+
+.add-student-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-student-section h2 {
+    margin-bottom: 20px;
+}
+
+.add-student-section form div {
+    margin-bottom: 10px;
+}
+
+.add-student-section input, .add-student-section button {
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.add-student-section button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-student-section button:hover {
+    background-color: #45a049;
+}
+
+.student-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    flex: 2; 
+}
+
+
+.student-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    max-width: 300px;
+    text-align: left;
+    margin: 10px; 
+    transition: transform 0.3s ease;
+}
+
+.student-card:hover {
+    transform: scale(1.05);
+}
+
+.student-card h4 {
+    margin: 0;
+    color: #333;
+}
+
+.student-card p {
+    color: #666;
+}
+
+
+.student-card button:hover {
+    background-color: #c82333;
+}
+
+.student-info {
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos al inicio */
+    gap: 10px; /* Controla el espacio entre el label y el valor */
+    margin-bottom: 10px;
+}
+
+.student-info label {
+    font-weight: bold;
+}
+
+.student-info h4 {
+    margin: 0;
+    color: #333;
+}
+.student-info p {
+    margin: 0; /* Elimina el margen predeterminado del <p> */
+    color: #333;
+}
+.form { 
+    margin-top: 10px; 
+    padding: 10px 20px; 
+    border: none; 
+    background-color: #4CAF50; 
+    color: white;
+    cursor: pointer; 
+    border-radius: 4px; 
+}
+.form button {
+    margin-top: 10px; 
+    padding: 10px 20px; 
+    
+}
